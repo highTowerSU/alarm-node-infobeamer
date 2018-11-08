@@ -1,0 +1,24 @@
+{
+    "name": "Root",
+    "options": [{
+        "title": "Playlist",
+        "name": "playlist",
+        "type": "list",
+        "itemname": "Item",
+        "items": [{
+            "title": "Asset",
+            "ui_width": 5,
+            "name": "file",
+            "type": "resource",
+            "valid": ["image", "video"],
+            "default": "empty.png"
+        }, {
+            "title": "Play time (in seconds)",
+            "ui_width": 4,
+            "name": "duration",
+            "type": "duration",
+            "hint": "How long should this item be displayed on screen. For videos, use their duration",
+            "default": 5
+        }]
+    }]
+}

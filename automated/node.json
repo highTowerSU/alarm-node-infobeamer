@@ -1,0 +1,19 @@
+{
+    "name": "Automated",
+    "options": [{
+        "title": "Automated configuraton. Do not touch",
+        "type": "section"
+    }, {
+        "title": "JSON Example Value 1",
+        "ui_width": 12,
+        "name": "config_value1",
+        "type": "json",
+        "default": {}
+    }, {
+        "title": "JSON Example Value 2",
+        "ui_width": 12,
+        "name": "config_value2",
+        "type": "json",
+        "default": {}
+    }]
+}
