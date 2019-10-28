@@ -7,6 +7,7 @@ local alarmtext = "Noch keine Einsatzinformationen!"
 
 util.json_watch("config.json", function(config)
     alarmtext=config.text
+    pp(config)
 end)
 
 local function draw_info()
@@ -16,5 +17,6 @@ end
 
 function node.render()
     gl.clear(0,1,0,1)
+    font:write(120, 320, "Hello World", 100, 1,1,1,1)
     draw_info()
 end
