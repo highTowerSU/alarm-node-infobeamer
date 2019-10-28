@@ -1,4 +1,13 @@
 {
     "name": "Alarmtext",
-    "options": []
+    "options": [{
+        "title": "Automated configuraton. Do not touch",
+        "type": "section"
+    }, {
+        "title": "Alarmtext",
+        "ui_width": 12,
+        "name": "alarmtext",
+        "type": "json",
+        "default": {}
+    }]
 }
