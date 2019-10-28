@@ -15,6 +15,6 @@ local function draw_info()
 end
 
 function node.render()
-    gl.clear(0,0,0,1)
+    gl.clear(0,1,0,1)
     draw_info()
 end
