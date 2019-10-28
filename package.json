@@ -1,5 +1,5 @@
 {
-    "name": "JSON Config Example",
-    "author": "Florian Wesch <fw@info-beamer.com>",
-    "desc": "JSON Config Example"
+    "name": "Alarmtext",
+    "author": "Christian Debertshäuser <c.debertshaeuser@eMinus.UG>",
+    "desc": "Node for disyplaying Alarmtext!"
 }
