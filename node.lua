@@ -11,7 +11,7 @@ end)
 
 local function draw_info()
     local s = HEIGHT/10
-    font:write(s, s*0.5, alarmtext, s, 1,1,1,1)
+    font:write(s, s*0.5, "Alarm"..alarmtext, s, 1,1,1,1)
 end
 
 function node.render()
