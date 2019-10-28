@@ -18,5 +18,6 @@ end
 function node.render()
     gl.clear(0,1,0,1)
     font:write(120, 320, "Hello World", 100, 1,1,1,1)
+    print("Hallo Welt")
     draw_info()
 end
